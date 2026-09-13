@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #F7F5EE;
+  color: #1D1B15;
+}
+
+:focus-visible {
+  outline: 2px solid #4A5D3A;
+  outline-offset: 2px;
+}
