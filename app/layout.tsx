@@ -1,11 +1,11 @@
 import type { Metadata } from "next";
-import { Fraunces, Inter } from "next/font/google";
+import { Newsreader, Inter } from "next/font/google";
 import "./globals.css";
 
-const fraunces = Fraunces({
+const newsreader = Newsreader({
   subsets: ["latin"],
-  weight: ["400", "500", "600"],
-  variable: "--font-fraunces",
+  weight: ["500", "600"],
+  variable: "--font-display",
   display: "swap",
 });
 
@@ -28,7 +28,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="fr" className={`${fraunces.variable} ${inter.variable}`}>
+    <html lang="fr" className={`${newsreader.variable} ${inter.variable}`}>
       <body className="font-sans">{children}</body>
     </html>
   );
