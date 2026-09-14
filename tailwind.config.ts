@@ -16,7 +16,7 @@ const config: Config = {
         line: "#E4E0D3",
       },
       fontFamily: {
-        display: ["var(--font-fraunces)", "serif"],
+        display: ["var(--font-display)", "serif"],
         sans: ["var(--font-inter)", "sans-serif"],
       },
     },
